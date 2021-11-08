@@ -1,0 +1,153 @@
+body{
+
+    background-color: whitesmoke;
+}
+.ac{
+    position: absolute;
+    left: 220px;
+    top: 21px;
+}
+.dv{
+   position: absolute;
+   height: 605px;
+   width: 310px;
+   background-color: rgb(129, 121, 121);
+   border-radius: 18px;
+   left: 600px;
+   top: 52px;
+}
+.dv:hover {
+    background-color: rgb(87, 83, 83);
+}
+.inndv{
+    position: absolute;
+    height: 370px;
+    width: 290px;
+    background-color: silver ;
+    left: 10px;
+    top: 190px;
+    border-radius: 3px;
+}
+.inndv:hover {
+    background-color: rgb(175, 168, 168);
+}
+.hed{
+    position: absolute;
+    width: 290px;
+ height: 111px;
+ background-color: black;
+ left: 10px;
+ top: 20px;
+ border-radius: 3px;
+}
+.hdfont{
+    position: absolute;
+    font-size: 31px;
+    color: white;
+    
+}
+.b7{
+position: absolute;
+    left: 10px;
+    top: 90px;
+
+}
+.b8{
+    position: absolute;
+    left: 80px;
+    top: 90px;
+}
+.b9{
+    position: absolute;
+    left: 150px;
+    top: 90px;
+}
+.b4{
+   position: absolute;
+   left: 10px;
+   top: 161px;
+}
+.b5{
+    position: absolute;
+    left: 80px;
+    top: 161px;
+ 
+}
+.b6{
+    position: absolute;
+    left: 150px;
+    top: 161px;
+}  
+.b1{
+    position: absolute;
+    left: 10px;
+    top: 231px;
+}
+.b2{
+    position: absolute;
+    left: 80px;
+    top: 231px;
+}
+.b3{
+    position: absolute;
+    left: 150px;
+    top: 231px;
+}
+.minus{
+    position: absolute;
+    left: 220px;
+    top: 231px;
+}
+.bin{
+    position: absolute;
+    left: 220px;
+    top: 161px;
+}
+.en{
+    position: absolute;
+   width: 100px;
+}
+.per{
+position: absolute;
+left: 220px;
+top: 90px;
+
+
+}
+.ze{
+    position: absolute;
+left: 10px;
+top: 301px;
+
+}
+.dot{
+    position: absolute;
+    left: 80px;
+    top: 301px;
+}
+.plus{
+    position: absolute;
+    left: 150px;
+    top: 301px;
+}
+.eq{
+    position: absolute;
+    left: 220px;
+    top: 301px;
+}
+.btts{
+   
+    height: 45px;
+    width: 55px;
+    border-radius: 5px;
+    background-color: rgb(69, 69, 124);
+    color: silver;
+    font-size: 25px;
+}
+.btts:hover {
+    transition-delay: 2ms;
+    background-color: rgb(41, 41, 73);
+}
+.btts:active {
+    transform:  scale(0.9);
+}
