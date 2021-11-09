@@ -144,6 +144,4 @@ document.querySelector(".eq").addEventListener("click", () => {
 
 
 
-let str = " Uday";
 
-"hi my name is" + str              = "";
