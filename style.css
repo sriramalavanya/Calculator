@@ -1,20 +1,42 @@
 body{
-
     background-color: whitesmoke;
 }
+.gt{
+    position: absolute;
+    height: 42px;
+    width: 42px;
+    left: 10px;
+    top: 21px;
+}
+.in{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    left: 83px;
+    top: 21px;
+}
+.in:active{background-color: blue;
+transform: scale(0.9);}
 .ac{
     position: absolute;
     left: 220px;
     top: 21px;
 }
+.gt:active{
+transform: scale(0.9);
+}
+.gt:hover{
+background-color: silver;
+}
 .dv{
    position: absolute;
    height: 605px;
    width: 310px;
-   background-color: rgb(129, 121, 121);
+   background-color: rgb(129, 96, 96);
    border-radius: 18px;
-   left: 600px;
-   top: 52px;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
 }
 .dv:hover {
     background-color: rgb(87, 83, 83);
@@ -136,7 +158,6 @@ top: 301px;
     top: 301px;
 }
 .btts{
-   
     height: 45px;
     width: 55px;
     border-radius: 5px;
@@ -150,4 +171,40 @@ top: 301px;
 }
 .btts:active {
     transform:  scale(0.9);
+}
+.containor{
+    position: absolute;
+    width: 1770px;
+    top: 1100px;
+    /* margin: 10px; */
+    margin: auto;
+    background-color: grey;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+
+    list-style: none;
+}
+.followus{
+    margin: 10px;
+    padding: 10px;
+}
+.col{
+    margin-left: 10px;
+}
+.abt{
+    margin-left: 18px;
+}
+.here{
+    margin-left: 900px;
+}
+.agit{
+    height: 100px;
+    width: 100px;
+}
+.foll{
+    margin-left: 40px;
 }
